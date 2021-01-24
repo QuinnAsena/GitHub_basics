@@ -1,0 +1,150 @@
+---
+title: "Git basics"
+subtitle: "༼ʘ̚ل͜ʘ̚༽"
+author: ""
+institute: ""
+date: ""
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+# Links - \ (•◡•) /
+
+
+- [Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+
+-
+
+---
+
+# Overview - (◕‿◕✿)
+
+.pull-left[
+
+- Git is a version control system.
+
+- Git is not for large data storage although GitHub does have an option for large files.
+
+- Git and GitHub are different things. Git is the version control system, GitHib is a cloud storage.
+
+- There are alternatives to Git and GitHub.
+
+]
+
+
+.pull-right[
+```{r, echo=FALSE, fig.align='center'}
+knitr::include_graphics("versions_cartoon.png")
+```
+]
+
+
+
+---
+
+# Git workflow - ﴾͡๏̯͡๏﴿ 
+
+
+- *initialise* a local repository ('repo'). A repo is a working directory containing the files you wish to version control (e.g., a thesis, paper or analysis code).
+
+- *add* a snapshot of the repo to a 'staging area': Tell git which changes to the repo you want to commit.
+
+- *commit* files from the staging area. Takes a snapshot of the tracked files and stores them as a version. 
+ - Each commit has a unique identifier. You can revert to a previous version of your project by using the identifier.
+ - Each commit requires a commit message to write to your future self what you changed and why.
+
+ 
+- *push* changes to a server such as GitHub (there are others). Upload files to a remote repo.
+
+
+
+---
+
+# Initialise - (ง'̀-'́)ง
+
+1. Make a new directory somewhere on your computer.
+
+2. Initialise a repo in that directory with a README.md and a .gitignore (in GitDesktop this steps 1 and 2 can be done at the same time).
+
+ - a .gitignore file is a text file containing a list of items you *do not* want to keep track of or store (e.g., plot images generated from the source code).
+
+3. Publish the repo to GitHub.
+
+
+
+---
+
+# add/commit and push - (ᵔᴥᵔ)
+
+1. Make some changes to your README.md.
+
+2. Add and commit the changes.
+
+4. Push the changes to GitHub.
+
+
+---
+ 
+# Pull - (ง°ل͜°)ง
+
+1. Edit your README.md on GitHub.
+
+2. Pull changes to your local machine.
+
+
+
+---
+
+# Branching - ≧☉_☉≦
+
+- So far we have been working on the master branch of your project.
+
+- Branches allow you to make changes in parallel to your master branch without editing your primary working branch. Changes can be reviewed and merged to your master branch with a 'pull request'
+
+---
+
+# Branching - ಠ~ಠ
+
+1. Create a branch in your Git GUI and navigate to that branch.
+
+2. Edit your README.md and commit the changes to your new branch.
+
+3. Create a 'pull request' to merge the changes with your master branch.
+
+
+---
+
+# Collaboration - ಠ╭╮ಠ
+
+0. Pair up with someone.
+
+1. GitHub go: settings -> manage access -> invite collaborator. Add each other as collaborators to your projects.
+
+2. Clone their repository.
+
+ - 'Clone' makes a copy of a remote repo on your local machine.
+
+3. Make a new branch in their repo.
+
+4. Make changes to their README.md, commit the changes to the branch and submit a pull request for them to review.
+
+5. Review the changes they have made on your README.md and merge them with your master branch.
+
+
+---
+
+# ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿
+
+- Git can do much much more 
+
+- Git version control can all be done on the command line which is necessary when communing with NeSi
+
+
+
+
+
+
