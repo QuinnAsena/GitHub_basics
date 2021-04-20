@@ -1,5 +1,5 @@
 ---
-title: "Git basics"
+title: "Git good"
 subtitle: "༼ʘ̚ل͜ʘ̚༽"
 author: ""
 institute: ""
@@ -12,12 +12,21 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+
+```{r broadcast, echo=FALSE}
+xaringanExtra::use_broadcast()
+```
+
 # Links - \ (•◡•) /
 
 
 - [Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 
--
+- [Happy git with R](https://happygitwithr.com/big-picture.html#why-git)
+
+- [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159v2/)
+
+- [https://swcarpentry.github.io/git-novice/](Software carpentry) (commandline Git)
 
 ---
 
@@ -25,13 +34,15 @@ output:
 
 .pull-left[
 
-- Git is a version control system.
+- Git is a version control system for items like source code.
 
-- Git is not for large data storage although GitHub does have an option for large files.
+- Git is not for data storage although GitHub does have an option for large file storage (Git LFS).
 
 - Git and GitHub are different things. Git is the version control system, GitHib is a cloud storage.
 
-- There are alternatives to Git and GitHub.
+- There are alternatives to Git and GitHub. Git is commonly used.
+
+- If all you want is a personal back-up system Git is not essential
 
 ]
 
@@ -42,6 +53,11 @@ knitr::include_graphics("versions_cartoon.png")
 ```
 ]
 
+---
+
+# Overview - (◕‿◕✿)
+
+
 
 
 ---
@@ -49,16 +65,16 @@ knitr::include_graphics("versions_cartoon.png")
 # Git workflow - ﴾͡๏̯͡๏﴿ 
 
 
-- *initialise* a local repository ('repo'). A repo is a working directory containing the files you wish to version control (e.g., a thesis, paper or analysis code).
+- **initialise** a local repository ('repo'). A repo is a working directory containing the files you wish to version control (e.g., a thesis, paper or analysis code).
 
-- *add* a snapshot of the repo to a 'staging area': Tell git which changes to the repo you want to commit.
+- **add** a snapshot of the repo to a 'staging area': Tell git which changes to the repo you want to commit.
 
-- *commit* files from the staging area. Takes a snapshot of the tracked files and stores them as a version. 
+- **commit** files from the staging area. Takes a snapshot of the tracked files and stores them as a version. 
  - Each commit has a unique identifier. You can revert to a previous version of your project by using the identifier.
  - Each commit requires a commit message to write to your future self what you changed and why.
 
  
-- *push* changes to a server such as GitHub (there are others). Upload files to a remote repo.
+- **push** changes to a server such as GitHub (there are others). Upload files to a remote repo.
 
 
 
@@ -71,6 +87,8 @@ knitr::include_graphics("versions_cartoon.png")
 2. Initialise a repo in that directory with a README.md and a .gitignore (in GitDesktop this steps 1 and 2 can be done at the same time).
 
  - a .gitignore file is a text file containing a list of items you *do not* want to keep track of or store (e.g., plot images generated from the source code).
+
+ - Markdown files render in html so the README is viewed as a formatted document on a browser. I suggest using the README to outline the purpose of your code and detail problems.
 
 3. Publish the repo to GitHub.
 
