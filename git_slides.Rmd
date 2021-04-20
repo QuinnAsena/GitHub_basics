@@ -39,7 +39,7 @@ xaringanExtra::use_xaringan_extra(c("broadcast", "webcam"))
 
 - Git is not for data storage although GitHub does have an option for large file storage (Git LFS).
 
-- Git and GitHub are different things. Git is the version control system, GitHib is a cloud storage.
+- **Git** and **GitHub** are different things. Git is the version control system, GitHib is a cloud storage.
 
 - There are alternatives to Git and GitHub. Git is commonly used.
 
@@ -59,22 +59,16 @@ knitr::include_graphics("versions_cartoon.png")
 # Git language - :o)
 
 
-.pull-left[
 
 **Git language** [see cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 
-- Git has its own 'verbs' for everything!
+Git has its own 'verbs' for everything! Gets confusing so we will cover a few of the most important ones.
 
-- Gets confusing so we will cover a few of the most important ones.
-
-]
-
-
-.pull-right[
+.pull-left[
 
 **Git verbs for today**
 
-- initialise
+- init (initialise)
 
 - add
 
@@ -86,10 +80,29 @@ knitr::include_graphics("versions_cartoon.png")
 
 - clone
 
+- merge
 
 ]
 
+
+.pull-right[
+
+**Other Git things**
+
+- Repository
+
+- Staging area
+
+- Local storage
+
+- Remote host
+
+]
+
+
 ???
+
+Everything you need to do in Git has the form *verb* -> *argument*
 
 Commandline Git is useful to know at some point but for personal use I like the GUI.
 
@@ -104,16 +117,25 @@ Commandline Git is useful to know at some point but for personal use I like the 
  - Remote copies can be private, public or shared with specific collaborators
 
 
+```{r, echo=FALSE, fig.align='center', out.width="50%", out.height=="50%"}
+knitr::include_graphics("local_remote.PNG")
+```
+
+
 
 ---
 
 # Git workflow - ﴾͡๏̯͡๏﴿ 
 
-- Everything in Git can be done in the commandline
+- Everything in Git can be done in the commandline.
 
-- Use whatever method is most effective for your workflow, today we will use a GUI
+- Use whatever method is most effective for your workflow, today we will use a GUI.
 
 - A lot of Git things can be done either from your local machine or the remote repo, even some editing.
+
+???
+
+Commandline may be necessary for some work like with NeSI but 'there are no merit badges for being a git nerd'
 
 ---
 
@@ -214,11 +236,43 @@ I recommend we use the README to outline the purpose of the code to review.
 
 ---
 
+# Collaboration - ಠ╭╮ಠ
+
+
+For the code review:
+
+.pull-left[
+
+For the **submitter**
+
+1. Initialise a repo.
+
+2. Create a branch for bug fixes.
+
+3. Once changes have submitted to the branch, review them and **merge** with your master branch.
+
+]
+
+.pull-right[
+
+For the **reviewers**
+
+1. clone the repo.
+
+2. do your thing.
+
+3. submit changes **to the branch**.
+
+]
+
+
+---
+
 # ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿
 
-- Git can do much much more 
+- Git can do much much more, and also gets a lot more complicated....
 
-- Git version control can all be done on the command line which is necessary when communing with NeSi
+- Git version control can all be done on the command line which is necessary when communing with NeSI.
 
 
 
