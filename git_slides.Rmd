@@ -17,20 +17,17 @@ output:
 xaringanExtra::use_broadcast()
 ```
 
-```{r}
-xaringanExtra::use_webcam()
-```
 
 # Links - \ (•◡•) /
 
 
-- [Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+- [Cheatsheet and commandline info](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 
 - [Happy git with R](https://happygitwithr.com/big-picture.html#why-git)
 
 - [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159v2/)
 
-- [https://swcarpentry.github.io/git-novice/](Software carpentry (commandline Git))
+- [Software carpentry (commandline Git)](https://swcarpentry.github.io/git-novice/)
 
 ---
 
@@ -59,8 +56,40 @@ knitr::include_graphics("versions_cartoon.png")
 
 ---
 
-# Overview - (◕‿◕✿)
+# Git language - :o)
 
+
+.pull-left[
+
+**Git language** [see cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+
+- Git has its own 'verbs' for everything!
+
+- Gets confusing so we will cover a few of the most important ones.
+
+]
+
+
+.pull-right[
+
+**Git verbs for today**
+
+- initialise: 
+
+- add
+
+- commit
+
+- push
+
+- pull
+
+
+]
+
+???
+
+Commandline Git is useful to know at some point but for personal use I like the GUI.
 
 
 
