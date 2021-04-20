@@ -1,2 +1,2 @@
 # GitHub_basics
- GitHub basics for code review
+ GitHub basics for code review.
