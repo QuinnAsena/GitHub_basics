@@ -13,8 +13,8 @@ output:
       countIncrementalSlides: false
 ---
 
-```{r broadcast, echo=FALSE}
-xaringanExtra::use_broadcast()
+```{r xaringanExtra, include = FALSE}
+xaringanExtra::use_xaringan_extra(c("broadcast", "webcam"))
 ```
 
 
