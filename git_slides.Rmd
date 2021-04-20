@@ -74,7 +74,7 @@ knitr::include_graphics("versions_cartoon.png")
 
 **Git verbs for today**
 
-- initialise: 
+- initialise
 
 - add
 
@@ -84,6 +84,8 @@ knitr::include_graphics("versions_cartoon.png")
 
 - pull
 
+- clone
+
 
 ]
 
@@ -92,6 +94,26 @@ knitr::include_graphics("versions_cartoon.png")
 Commandline Git is useful to know at some point but for personal use I like the GUI.
 
 
+---
+
+# Git workflow - ﴾͡๏̯͡๏﴿
+
+- Local copy (stored on your personal machine)
+
+- Remote copy (stored in the cloud)
+ - Remote copies can be private, public or shared with specific collaborators
+
+
+
+---
+
+# Git workflow - ﴾͡๏̯͡๏﴿ 
+
+- Everything in Git can be done in the commandline
+
+- Use whatever method is most effective for your workflow, today we will use a GUI
+
+- A lot of Git things can be done either from your local machine or the remote repo, even some editing.
 
 ---
 
@@ -136,6 +158,10 @@ Commandline Git is useful to know at some point but for personal use I like the 
 2. Add and commit the changes.
 
 4. Push the changes to GitHub.
+
+???
+I recommend we use the README to outline the purpose of the code to review.
+
 
 
 ---
