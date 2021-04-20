@@ -17,6 +17,10 @@ output:
 xaringanExtra::use_broadcast()
 ```
 
+```{r}
+xaringanExtra::use_webcam()
+```
+
 # Links - \ (•◡•) /
 
 
@@ -26,7 +30,7 @@ xaringanExtra::use_broadcast()
 
 - [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159v2/)
 
-- [https://swcarpentry.github.io/git-novice/](Software carpentry) (commandline Git)
+- [https://swcarpentry.github.io/git-novice/](Software carpentry (commandline Git))
 
 ---
 
