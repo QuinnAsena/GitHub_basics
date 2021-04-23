@@ -38,6 +38,8 @@ class: center, middle, inverse, title-slide
 
 - [Software carpentry (commandline Git)](https://swcarpentry.github.io/git-novice/)
 
+Today's objective is to cover the minimum requirements to use Git for code reviews.
+
 ---
 
 # Overview - (◕‿◕✿)
@@ -48,7 +50,7 @@ class: center, middle, inverse, title-slide
 
 - Git is not for data storage although GitHub does have an option for large file storage (Git LFS).
 
-- **Git** and **GitHub** are different things. Git is the version control system, GitHib is a cloud storage.
+- **Git** and **GitHub** are different things. Git is the version control system, GitHub is a cloud storage.
 
 - There are alternatives to Git and GitHub. Git is commonly used.
 
@@ -127,6 +129,10 @@ Commandline Git is useful to know at some point but for personal use I like the 
 &lt;img src="local_remote.PNG" width="50%" style="display: block; margin: auto;" /&gt;
 
 
+???
+
+The idea is that git version control always moves forward. Even if you revert change it still exists.
+
 
 ---
 
@@ -140,7 +146,7 @@ Commandline Git is useful to know at some point but for personal use I like the 
 
 ???
 
-Commandline may be necessary for some work like with NeSI but 'there are no merit badges for being a git nerd'
+Commandline may be necessary for some work like with NeSI but 'there are no merit badges for being a git nerd'... actually there are...
 
 ---
 
@@ -158,7 +164,11 @@ Commandline may be necessary for some work like with NeSI but 'there are no meri
  
 - **push** changes to a server such as GitHub (there are others). Upload files to a remote repo.
 
+???
 
+A repository is initialised once. Add, commit and push are done every time you back up your local copy to the remote server.
+
+Git does not autobackup every x minutes. Can set up a cron job if you really want.
 
 ---
 
@@ -275,7 +285,7 @@ For the **reviewers**
 
 # ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿
 
-- Git can do much much more 
+- Git can do much much more, and also gets a lot more complicated....
 
 - Git version control can all be done on the command line which is necessary when communing with NeSI.
     </textarea>

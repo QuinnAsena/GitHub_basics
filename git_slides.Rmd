@@ -29,6 +29,11 @@ xaringanExtra::use_xaringan_extra(c("broadcast", "webcam"))
 
 - [Software carpentry (commandline Git)](https://swcarpentry.github.io/git-novice/)
 
+- [link to slides](https://quinnasena.github.io/GitHub_basics/git_slides.html#1)
+
+
+Today's objective is to cover the minimum requirements to use Git for code reviews.
+
 ---
 
 # Overview - (◕‿◕✿)
@@ -39,7 +44,7 @@ xaringanExtra::use_xaringan_extra(c("broadcast", "webcam"))
 
 - Git is not for data storage although GitHub does have an option for large file storage (Git LFS).
 
-- **Git** and **GitHub** are different things. Git is the version control system, GitHib is a cloud storage.
+- **Git** and **GitHub** are different things. Git is the version control system, GitHub is a cloud storage.
 
 - There are alternatives to Git and GitHub. Git is commonly used.
 
@@ -122,6 +127,10 @@ knitr::include_graphics("local_remote.PNG")
 ```
 
 
+???
+
+The idea is that git version control always moves forward. Even if you revert change it still exists.
+
 
 ---
 
@@ -135,7 +144,7 @@ knitr::include_graphics("local_remote.PNG")
 
 ???
 
-Commandline may be necessary for some work like with NeSI but 'there are no merit badges for being a git nerd'
+Commandline may be necessary for some work like with NeSI but 'there are no merit badges for being a git nerd'... actually there are...
 
 ---
 
@@ -153,7 +162,11 @@ Commandline may be necessary for some work like with NeSI but 'there are no meri
  
 - **push** changes to a server such as GitHub (there are others). Upload files to a remote repo.
 
+???
 
+A repository is initialised once. Add, commit and push are done every time you back up your local copy to the remote server.
+
+Git does not autobackup every x minutes. Can set up a cron job if you really want.
 
 ---
 
